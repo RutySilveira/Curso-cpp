@@ -13,13 +13,15 @@ int main()
   std::cout << "Vidas do Jogador: " << NumVidas << std::endl;
   // Exibe o número de vidas do jogador
 
+  std::cout << "Tamanho da Variavel NumVidas: " << sizeof(NumVidas) << "\n";
+  // Exibe o tamanho da variável NumVidas (em bytes)
   std::cout << "Endereco que NumVidas ocupa na memoria RAM: " << &NumVidas << "\n";
   // Exibe o endereço de memória da variável NumVidas (em hexadecimal)
 
   std::cout << "Pontuacao: " << Pontuacao << std::endl;
   // Exibe a pontuação atual
 
-  std::cout << "**************" << std::endl;
+    std::cout << "**************" << std::endl;
 
   std::cout << "*****DURANTE O JOGO*****" << std::endl;
   // Simula uma mudança no estado do jogo
